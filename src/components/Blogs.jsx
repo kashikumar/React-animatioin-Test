@@ -45,7 +45,7 @@ export const Blogs = () => {
                                     <img class="card-img-top" src={items.imgUrl} alt="Card cap" />
                                     <div className="card-body">
                                         <div className="card-title">{items.title}</div>
-                                        <p className="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil minima quam obcaecati!</p>
+                                        <p className="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                                         <a href="/contact" className="btn btn-primary">{items.cardbtn}</a>
                                     </div>
                                 </div>
