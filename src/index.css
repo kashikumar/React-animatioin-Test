@@ -1,13 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
+    font-family: 'Mulish', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
+    font-family: 'Mulish', sans-serif;
+}
+
+.animated {
+  animation: animatedbounce 4s ease-in-out infinite alternate-reverse both;
+}
+@keyframes animatedbounce {
+  0%, 100% {
+      transform: translateY(-10%);
+      /* animation-timing-function: cubic-bezier(0.8,0,1,1); */
+  }
+  50% {
+      transform: none;
+      /* animation-timing-function: cubic-bezier(0,0,0.2,1); */
+  }
 }
