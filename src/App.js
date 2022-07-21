@@ -10,6 +10,7 @@ import { Navbar } from './header/Navbar';
 import { FooterPage } from './components/FooterPage';
 import { Covid } from './component2/Covid';
 import { SearchImg } from './component2/SearchImg';
+import { Weather } from './component2/Weather';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/weather" element={<Weather />} />
         <Route path="/about" element={<AboutPage />} />
         {/* <Route path="blogs" element={<Blogs />} /> */}
         <Route path="/covid" element={<Covid />} />

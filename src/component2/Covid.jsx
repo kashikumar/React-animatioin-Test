@@ -31,7 +31,7 @@ export const Covid = () => {
                             <div className="row gy-4">
                                 <div className="col-md-4 col-sm-10 col-11 mx-auto">
                                     <div className="min-h-[25vh] p-2 h-full text-center bg-slate-300 text-slate-700">
-                                        <h2><span className="text-lg mx-1">Total</span>Country</h2>
+                                        <h2><span className="text-lg mx-1">Current</span>Country</h2>
                                         <div>
                                             <h1>INDIA</h1>
                                         </div>
