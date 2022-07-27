@@ -6,7 +6,7 @@ export const AboutPage = () => {
     <section>
             <div className="container-fluid">
                 <div className="row w-11/12 mx-auto">
-                    <div className="col-md-6 flex flex-col justify-center mt-5">
+                    <div className="col-md-6 order-md-1 order-2 flex flex-col justify-center mt-5">
                         <div className="h1">
                             Welcome To <span className="text-sky-400">Touchwood</span> About Page
                         </div>
@@ -15,7 +15,7 @@ export const AboutPage = () => {
                             <Link to="/contact" className="btn btn-outline-primary rounded-pill">Contact-Us</Link>
                         </div>
                     </div>
-                    <div className="col-md-6 flex flex-col justify-center mt-5">
+                    <div className="col-md-6 order-md-2 order-1 flex flex-col justify-center mt-5">
                         <img src="/images/about-img.svg" className='img-fluid w-full animated' alt="landing-hero img" />
                     </div>
                 </div>
