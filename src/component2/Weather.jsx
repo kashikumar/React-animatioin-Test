@@ -25,6 +25,7 @@ export const Weather = () => {
         console.log(weatherApi.current);
         setData(weatherApi.current)
     }
+    // eslint-disable-next-line 
     useLayoutEffect(() => {
         getWeatherApi();
     }, [citySearch])
